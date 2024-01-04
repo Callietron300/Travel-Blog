@@ -276,13 +276,14 @@ header {
 }
 
 footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
   padding: 100px 100px;
   background-color: var(--grey);
 }
 
-footer div {
-  width: 40%;
+footer table {
+  width: 100%;
+}
+
+footer td {
+  width: 36%;
 }
